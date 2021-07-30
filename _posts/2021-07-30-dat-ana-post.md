@@ -40,16 +40,6 @@ The mathematical function of a model that uses input data and parameters.
 
 The model classifies every pixel of an image.
 
-General preformatted text:
+# What did I learn?
 
-    # Do a thing
-    do_thing()
-
-Python code and output:
-
-```python
-# Prints '2'
-print(1+1)
-```
-
-    2
+Having made some experiences from the BA with Image Processing the general idea was no news to me. However, I didn't know about the exact termination, like architecture or segmentation.
