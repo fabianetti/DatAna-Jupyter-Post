@@ -1,6 +1,3 @@
-# Data Analytics Jupyter-Notebook Post
+## Overview
 
-## Deep Learning for Coders Questions
-
-
-
+This is the blog of Fabianetti. Blogging by not trying to blog!
