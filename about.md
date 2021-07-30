@@ -1,4 +1,4 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Fabianetti, born 11th of October 1996, is the Internet Handle of Fabian Zanetti. He is known for Painting the Stripes of Zebras and for being the Former Owner of the Philosopher's Stone.
 
