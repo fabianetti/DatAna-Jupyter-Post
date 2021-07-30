@@ -1,3 +1,3 @@
 ## Overview
 
-This is the blog of Fabianetti. Blogging by not trying to blog!
+By looking down, you'll see my huge list of blogs.
