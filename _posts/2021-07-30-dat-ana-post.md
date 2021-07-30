@@ -1,53 +1,44 @@
-# This is the title
+# Deep Learning 9 Questions of Life
 
-Here's the table of contents:
+By answering the following nine questions, I'll be one step closer to finding the true secret of the Zebras.
 
-1. TOC
-{:toc}
+![image](/images/zebra.png "Scail, the Zebra")
 
-## Basic setup
+## 1 - Can we always use a random sample for a validation set?
 
-Jekyll requires blog post files to be named according to the following format:
+No, when trying to make a prediction for the future, there is no point of predicting a random value in the past. In that case the validation set needs to consist of only the latest values.
 
-`YEAR-MONTH-DAY-filename.md`
+## 2 - What is overfitting?
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. `.md` is the file extension for markdown files.
+When training a model for too long or without enough data, the model remembers the prior predictions, without learning the traits that defined the decision.
 
-The first line of the file should start with a single hash character, then a space, then your title. This is how you create a "*level 1 heading*" in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line `## File names` above.
+## 3 - What is a metric? How does it differ from loss?
 
-## Basic formatting
+Loss is the value that the model tries to minimize, a metric is printed after each epoch for the user to see how the model performed. Especially in a classification problem, the loss value might change slightely while the prediction (and with it the metric) remains the same.
 
-You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
+## 4 - How can pretrained models help?
 
----
+Pretrained Models are used in Transfer Learning
 
-## Lists
+## 5 - What is the head of a model?
 
-Here's a list:
+The Neural Network?
 
-- item 1
-- item 2
+## 6 - What kinds of features do the early layers of a CNN find?
 
-And a numbered list:
+In first layer it's just edges and gradients, in the second layer circles, semi-circles and repeating patterns can be found, in the third layer text, persons, repeating geometric patterns. From layer 4 onwards the features become distinct like dog faces.
 
-1. item 1
-1. item 2
+## 7 - Are image models only useful for photos?
 
-## Boxes and stuff
+No, sound, mouse movent, viruses, etc can be converted into images.
 
-> This is a quotation
+## 8 - What is an architecture?
 
-{% include alert.html text="You can include alert boxes" %}
+The mathematical function of a model that uses input data and parameters.
 
-...and...
+## 9 - What is a segmentation?
 
-{% include info.html text="You can include info boxes" %}
-
-## Images
-
-![](/images/zebra.png "Scail, the Zebra")
-
-## Code
+The model classifies every pixel of an image.
 
 General preformatted text:
 
@@ -62,14 +53,3 @@ print(1+1)
 ```
 
     2
-
-## Tables
-
-| Column 1 | Column 2 |
-|-|-|
-| A thing | Another thing |
-
-## Footnotes
-
-[^1]: This is the footnote.
-
